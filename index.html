@@ -1,28 +1,25 @@
 <!doctype html>
-<html>
-  <head>
+<html lang="fr">
+<head>
     <meta charset="utf-8">
-    <title>Homepage</title>
-  </head>
-  <body>
-  	<h1 id="titre"></h1>
-    <textarea id="text"></textarea> 
-    <button id="btn">Send Message</button>
-    <p id="para">Some text here</p>
-    <button onclick="changeColor('blue');">blue</button>
-    <button onclick="changeColor('red');">red</button>
-    <button onclick="ajoutepara();">Ajoute</button>
-    <script>
-      document.getElementById("titre").textContent = "Hello World";
-      function ajoutepara() {
-        var para = document.createElement('p');
-        para.textContent = 'Paragraphe';
-        document.body.appendChild(para);
-      }
-      function changeColor(newColor) {
-        var elem = document.getElementById('para');
-        elem.style.color = newColor;
-      }  
-    </script>
-  </body>
+    <title>Démarrer avec CSS</title>
+</head>
+
+<body>
+    
+    <h1>Je suis un titre de niveau un</h1>
+
+    <p>Ceci est un paragraphe. Dans ce texte il y a un <span>élément span</span>
+ et aussi un <a href="http://example.com">lien</a>.</p>
+
+    <p>Ceci est un second paragraphe. On y trouve un élément <em>mis en valeur</em>.</p>
+
+    <ul>
+        <li>Item un</li>
+        <li>Item deux</li>
+        <li>Item <em>trois</em></li>
+    </ul>
+
+</body>
+
 </html>
