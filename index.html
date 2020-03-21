@@ -5,9 +5,24 @@
     <title>Homepage</title>
   </head>
   <body>
-  	<h1 id="titre"></h1>
+  	<h id="titre"></h>
+    <textarea id="text"></textarea> 
+    <button id="btn">Send Message</button>
+    <p id="para">Some text here</p>
+    <button onclick="changeColor('blue');">blue</button>
+    <button onclick="changeColor('red');">red</button>
+    <button onclick="ajoutepara();">Ajoute</button>
     <script>
       document.getElementById("titre").textContent = "Hello World";
+      function ajoutepara() {
+        var para = document.createElement('p');
+        para.textContent = 'Paragraphe';
+        document.body.appendChild(para);
+      }
+      function changeColor(newColor) {
+        var elem = document.getElementById('para');
+        elem.style.color = newColor;
+      }  
     </script>
   </body>
 </html>
