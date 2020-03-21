@@ -1,13 +1,13 @@
 Body {
   font-family: sans-serif;
-  border: 2px solid #ccc;
-  padding: 1em;
+
 }
 
 body h1 + p .special {
   color: yellow;
   background-color: black;
   padding: 5px;
+  border: 2px solid #ccc;
 }
 
 h1{
