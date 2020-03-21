@@ -1,4 +1,50 @@
+Body {
+  font-family: sans-serif;
+  
+}
 
-h1 {
-  color: red;
+body h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}
+
+h1{
+  color : red;
+}
+
+p, li {
+    color: green;
+}
+
+li {
+  list-style-type: lower-latin;
+}
+
+.special, span.special {
+  color: orange;
+  font-weight: bold;
+  list-style-type: upper-latin;
+}
+
+
+span.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: grey;
 }
