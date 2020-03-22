@@ -2,11 +2,12 @@
   background-color: rgb(179,57,81);
   color: #fff;
   text-decoration: none;
-  padding: 1em;
+  padding: 10px 5px 10px 5px;
   display: inline-block;
   margin : 2px;
   border-radius: 7px; 
-  width: 33vw;
+  width: 30vw;
+  text-align : center
 }
 
 .links-list a:hover {
@@ -17,6 +18,7 @@
 ul {
   display : flex; 
   list-style-type : none;
+  list-style-position: inside;
   padding : 0px;
 } 
 
